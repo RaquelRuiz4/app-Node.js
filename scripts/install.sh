@@ -1,1 +1,2 @@
- npm install
+cd /home/ubuntu/app/release 
+npm install
