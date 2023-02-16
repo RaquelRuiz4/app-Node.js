@@ -4,7 +4,6 @@ files:
   # unzip en ~/app/release
   - source: /
     destination: /home/ubuntu/app/release
-    overwrite: true
     file_exist_behavior: OVERWRITE
 hooks:
   BeforeInstall:
