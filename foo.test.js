@@ -1,4 +1,4 @@
-const foo = require('foo.test');
+const foo = require('./foo');
 
 test("foobar test", () => {
 // arrange and act
