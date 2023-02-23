@@ -11,7 +11,7 @@ on:
 jobs:
   on-success:
     runs-on: ubuntu-latest
-    if: ${{github.event.workflow.run.conclussion=="success"}}
+    if: ${{github.event.workflow.run.conclussion}}=="success"
 
     steps:
       - name: Checkout Code
